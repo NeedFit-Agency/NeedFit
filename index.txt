@@ -1,10 +1,10 @@
-Pixology - Building Digital Product
+NeedFit - Building Digital Product
 
 
 
 #---------- HEADER ----------#
 
-Pixology
+NeedFit
 
 aria-label="close menu"
 
@@ -28,11 +28,11 @@ Let’s Talk 👋
 
 Building Digital Product, Brand and Experience
 
-At Pixology we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast efficiency
+At NeedFit we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast efficiency
 
 How It Works
 
-aria-label="pixology promo"
+aria-label="NeedFit promo"
 <ion-icon name="play-outline" aria-hidden="true"></ion-icon>
 Behind the scenes
 
@@ -101,7 +101,7 @@ Specialist in aviding clients of financial challenges
 
 Fast working process
 
-At Pixology we specialize in designing, building, shipping and scaling beautifu.
+At NeedFit we specialize in designing, building, shipping and scaling beautifu.
 
 --color: 241, 77%, 63%;
 <ion-icon name="people-sharp" aria-hidden="true"></ion-icon>
@@ -119,7 +119,7 @@ Didicated team
 
 Projects
 
-Pixology complete project
+NeedFit complete project
 
 Website
 Landing Page
@@ -182,7 +182,7 @@ July 22, 2022
 
 Godaddy user flow solution...
 
-At Pixology we specialize in designing, building, shipping and scaling beautifu. At Pixology we specialize in designing, building, shipping and scaling beautiful.
+At NeedFit we specialize in designing, building, shipping and scaling beautifu. At NeedFit we specialize in designing, building, shipping and scaling beautiful.
 
 alt = Godaddy user flow solution for every individual
 
@@ -198,7 +198,7 @@ How to gain pro experience ar figma update version
 
 #---------- FOOTER ----------#
 
-About Pixology
+About NeedFit
 
 A new way to make the payments easy, reliable and 100% secure. claritatem itamconse quat. Exerci tationulla
 
@@ -229,7 +229,7 @@ alt = instagram post
 
 <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
 
-&copy; 2022 Pixology. All Rights Reserved by codewithsadee
+&copy; 2022 NeedFit. All Rights Reserved by codewithsadee
 
 Terms and conditions
 Privacy policy
