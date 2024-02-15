@@ -229,7 +229,7 @@ alt = instagram post
 
 <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
 
-&copy; 2022 NeedFit. All Rights Reserved by codewithsadee
+&copy; 2022 NeedFit. All Rights Reserved by NeedFit
 
 Terms and conditions
 Privacy policy
