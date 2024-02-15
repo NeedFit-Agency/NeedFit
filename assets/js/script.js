@@ -62,14 +62,48 @@ const headerActive = function () {
 
 document.addEventListener("DOMContentLoaded", function() {
   const buttons = document.querySelectorAll('.filter-btn');
+  const projects = document.querySelectorAll('.project-card');
 
-  buttons.forEach(button => {
+  // Hide all projects except the first one
+  projects.forEach((project, index) => {
+    if (index !== 0) {
+      project.style.display = 'none';
+    }
+  });
+
+  buttons.forEach((button, index) => {
     button.addEventListener('click', function() {
+      const projectId = this.getAttribute('data-filter-btn');
+
+      // Remove active class from all buttons
       buttons.forEach(btn => btn.classList.remove('active'));
+      // Add active class to the clicked button
+      this.classList.add('active');
+
+      // Hide all projects
+      projects.forEach(project => project.style.display = 'none');
+
+      // Show the project corresponding to the clicked button
+      const selectedProject = document.getElementById(projectId);
+      if (selectedProject) {
+        selectedProject.style.display = 'block';
+      }
+    });
+  });
+
+  // Event listener to remove active class when clicking on project card
+  projects.forEach(project => {
+    project.addEventListener('click', function() {
+      // Remove active class from all projects
+      projects.forEach(proj => proj.classList.remove('active'));
+      // Add active class to the clicked project
       this.classList.add('active');
     });
   });
 });
+
+
+
 
 
 addEventOnElem(window, "scroll", headerActive);
